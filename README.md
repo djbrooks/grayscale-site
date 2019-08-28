@@ -1,3 +1,15 @@
+# To deploy to Netlify
+# - Commit everything to local git
+# - From the repos/grayscale-site directory:
+netlify [shows all available cmds]
+netlify login
+netlify status
+netlify deploy
+# Review the temp site to be sure chgs are accurate
+netlify deploy --prod
+
+# DONE! : )
+
 # [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
